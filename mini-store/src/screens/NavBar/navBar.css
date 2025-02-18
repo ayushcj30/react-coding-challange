@@ -1,0 +1,49 @@
+/* Base Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+  }
+  
+  .nav-links button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Light Mode */
+  .light {
+    --bg-color: white;
+    --text-color: black;
+  }
+  
+  /* Dark Mode */
+  .dark {
+    --bg-color: black;
+    --text-color: white;
+  }
+  
+  .dark .nav-links button {
+    background-color: white;
+    color: black;
+  }
+  
+  .light .nav-links button {
+    background-color: black;
+    color: white;
+  }
+  

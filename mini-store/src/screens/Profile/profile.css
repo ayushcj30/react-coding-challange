@@ -1,0 +1,83 @@
+/* profile.css */
+.profile-container {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: darkseagreen;
+  }
+  .profile-form {
+    margin: 1rem;
+  }
+  .profile-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-form .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-form button {
+    width: 50%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-form button:hover {
+    background: #218838;
+  }
+  
+  .order-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .order-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-item strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .profile-container button {
+    margin-top: 20px;
+    background: #007bff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .profile-container button:hover {
+    background: #0056b3;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .input-dark-mode {
+    background-color: white;
+    color: black;
+  }
